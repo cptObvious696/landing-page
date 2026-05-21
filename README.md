@@ -1,12 +1,13 @@
 # Project: Landing Page
+
 Landing page template as part of The Odin Project curriculum.
 ---
 ## Objective
 ### Practice HTML & CSS skills learnt so far
 - HTML:
-    - Boilerplate - [ ]
-    - Containers - [ ]
-    - Element classes & ID's - [ ]
+    - Boilerplate - [x]
+    - Containers - [x]
+    - Element classes & ID's - [x]
 - CSS:
     - Flexbox - [ ]
     - Background colours - [ ]
