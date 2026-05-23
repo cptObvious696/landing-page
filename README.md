@@ -12,7 +12,7 @@ Landing page template as part of [The Odin Project](https://www.theodinproject.c
     - [ ] Layout
         - [x] Header
         - [x] Hero
-        - [ ] Information
+        - [x] Information
         - [ ] Quote
         - [ ] Call to Action
         - [ ] Footer

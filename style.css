@@ -41,6 +41,7 @@ body {
 
     .hero-left {
         width: 50%;
+
         h1 {
             margin: 0;
             font-size: 48px;
@@ -48,11 +49,13 @@ body {
             color: #F9FAF8;
             
         }
+
         p {
             margin: 0 0 16px 0;
             font-size:18px;
             color: #E5E7EB
         }
+
         button {
             border: none;
             border-radius: 5px;
@@ -65,20 +68,71 @@ body {
             background-color: #3882F6;
         }
     }
+
     .hero-right{
         display: flex;
         justify-content: right;
         width: 50%;
+
         .hero-image {
             display: flex;
             justify-content: center;
             align-items: center;
             width: 500px;
             height: 200px;
-            background-color: rgb(108, 108, 108);
+            background-color: #6c6c6c;
             p {
                 color: #E5E7EB
             }
+        }
+    }
+}
+
+.info {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding: 16px 15% 100px;
+
+    .info-header {
+        font-size: 36px;
+        color: #1F2937;
+        font-weight: 900;
+    }
+
+    .info-items {
+        display: flex;
+        justify-content: space-between;
+        gap: 50px;
+        list-style: none;
+        margin: 0;
+        padding: 0;
+
+        li {
+            width: min-content;
+            display: flex;
+            flex-flow: column wrap;
+        }
+
+        .info-image {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 0;
+            padding: 0;
+            width: 200px;
+            height: 200px;
+            border: 5px solid #3882F6;
+            border-radius: 25px;
+        }
+
+        p {
+            margin: 0;
+            padding: 0;
+            text-align: center;
+            font-size: 18px;
+            color: #6c6c6c;
         }
     }
 }
