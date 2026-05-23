@@ -13,10 +13,10 @@ Landing page template as part of [The Odin Project](https://www.theodinproject.c
         - [x] Header
         - [x] Hero
         - [x] Information
-        - [ ] Quote
-        - [ ] Call to Action
-        - [ ] Footer
-    - [ ] Flexbox
-    - [ ] Background colours
-    - [ ] Font styling (size, weight, colour)
+        - [x] Quote
+        - [x] Call to Action
+        - [x] Footer
+    - [x] Flexbox
+    - [x] Background colours
+    - [x] Font styling (size, weight, colour)
 ---

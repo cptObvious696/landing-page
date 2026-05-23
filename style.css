@@ -53,7 +53,7 @@ body {
         p {
             margin: 0 0 16px 0;
             font-size:18px;
-            color: #E5E7EB
+            color: #E5E7EB;
         }
 
         button {
@@ -137,6 +137,99 @@ body {
     }
 }
 
+.quote {
+    display: flex;
+    flex-flow: column wrap;
+    padding: 100px 25% 100px;
+    background-color: #E5E7EB;
+    color: #1F2937;
+
+    .quote-1 {
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        font-size: 36px;
+        font-style: italic;
+        font-weight: 300;
+    }
+
+    .citation-1 {
+        margin: 0;
+        padding: 0;
+        text-align: right;
+        font-size: 24px;
+        font-weight: bold;
+    }
+}
+
+.call-to-action {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 100px 15%;
+
+    .action-modal {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        height: 150px;
+        border-radius: 10px;
+        padding: 0 15%;
+        background-color: #3882F6;
+    }
+   
+
+    .action-modal-left {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: left;
+        width: 70%;
+
+        h3 {
+            margin: 0;
+            padding: 0;
+            font-size: 24px;
+            color: #F9FAF8;
+        }
+
+        p {
+            margin: 0;
+            padding: 0;
+            font-size: 18px;
+            color: #E5E7EB;
+        }
+    }
+
+    .action-modal-right {
+        display: flex;
+        justify-content: right;
+        align-items: center;
+        width: 30%;
+
+        button {
+            border: 2px solid #F9FAF8;
+            border-radius: 5px;
+            width: 120px;
+            height: 35px;
+            padding: 5px 10px;
+            font-size: 16px;
+            font-weight: bold;
+            color: #F9FAF8;
+            background-color: #3882F6;
+        }
+    }
+}
+
 .footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: #1F2937;
+    color: #F9FAF8;
+
+    p {
+        padding: 20px;
+    }
 }
